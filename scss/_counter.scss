@@ -1,0 +1,25 @@
+.bg-counter{
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.hr-counter{
+    border: 2px solid white;
+    background: $white;
+    width:30px;
+    margin-top:10px;
+    margin-left:0;
+}
+.counter-wrap{
+    display: flex;
+}
+.counter-box{
+    background-color:$white;
+    min-width: 75px;
+    height: 75px; 
+    border:1px solid $lightgray;
+    text-align: center;
+
+    
+}

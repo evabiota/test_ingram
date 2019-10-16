@@ -1,0 +1,21 @@
+
+.hr-sales{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.border-blue{
+    border: 1px solid $primary;
+    width: 250px;
+}
+
+.icons{
+    margin: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .border-blue {
+   width: auto;
+   margin-bottom: 20px;
+  }
+}
